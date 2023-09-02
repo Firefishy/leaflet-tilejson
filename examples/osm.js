@@ -6,11 +6,10 @@ var osmTileJSON = {
     "attribution": "&copy; OpenStreetMap contributors, CC-BY-SA",
     "scheme": "xyz",
     "tiles": [
-        "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+        "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
     ],
-    "subdomains": ["a", "b", "c"],
     "minzoom": 0,
-    "maxzoom": 18,
+    "maxzoom": 19,
     "bounds": [ -180, -85, 180, 85 ],
     "center": [ 11.9, 57.7, 8 ]
 };
